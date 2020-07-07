@@ -1,0 +1,17 @@
+<idea-plugin>
+    <id>justbucket.excludeComponentN</id>
+    <name>Exclude ComponentN</name>
+    <version>0.1</version>
+    <vendor email="26853613+JustBucket416@users.noreply.github.com">JustBucket</vendor>
+
+    <idea-version since-build="201.3803.71"/>
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <completion.contributor language="JAVA"
+                                order="first"
+                                implementationClass="ComponentNFilteringContributor"/>
+    </extensions>
+
+</idea-plugin>
