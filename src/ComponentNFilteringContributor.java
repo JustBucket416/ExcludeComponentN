@@ -24,7 +24,7 @@ public class ComponentNFilteringContributor extends CompletionContributor {
 
     @Override
     public void fillCompletionVariants(@NotNull CompletionParameters parameters, @NotNull CompletionResultSet result) {
-        result.runRemainingContributors(parameters, filteringConsumer, false, null);
+        result.runRemainingContributors(parameters, filteringConsumer, false);
         result.addAllElements(filteredSet);
         filteredSet.clear();
     }

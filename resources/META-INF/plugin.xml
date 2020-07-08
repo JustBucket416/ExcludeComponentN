@@ -1,14 +1,14 @@
 <idea-plugin>
     <id>justbucket.excludeComponentN</id>
     <name>Exclude ComponentN</name>
-    <version>0.1</version>
+    <version>0.2</version>
     <vendor email="26853613+JustBucket416@users.noreply.github.com">JustBucket</vendor>
 
     <description><![CDATA[
       Plugin to filter out Kotlin componentN() methods
     ]]></description>
 
-    <idea-version since-build="201.3803.71"/>
+    <idea-version since-build="172.0"/>
 
     <depends>com.intellij.modules.lang</depends>
 
